@@ -116,10 +116,9 @@
 
 <!--
 <p align="center">
-  <img src="docs/screenshots/01_catalog.png"  alt="Каталог"        width="24%" />
-  <img src="docs/screenshots/02_details.png"  alt="Страница тайтла" width="24%" />
-  <img src="docs/screenshots/03_reader.png"   alt="Читалка"        width="24%" />
-  <img src="docs/screenshots/04_bookmarks.png" alt="Закладки"      width="24%" />
+  <img src="docs/screenshots/photo_5244518002202451838_y.jpg"  alt="Каталог"        width="24%" />
+  <img src="docs/screenshots/photo_5244518002202451837_y.jpg"   alt="Читалка"        width="24%" />
+  <img src="docs/screenshots/photo_5244518002202451842_y.jpg" alt="Закладки"      width="24%" />
 </p>
 -->
 
@@ -309,29 +308,6 @@
 
 ---
 
-## 🤝 Вклад в проект
-
-Приветствуются Issues и Pull Request'ы.
-
-1. Сделайте форк репозитория.
-2. Создайте ветку: `git checkout -b feature/nice-thing`.
-3. Закоммитьте изменения: `git commit -m "feat: добавлено кое-что полезное"`.
-4. Отправьте ветку: `git push origin feature/nice-thing`.
-5. Откройте Pull Request в `main` и опишите, что изменилось.
-
-Сборка из исходников:
-
-```bash
-git clone https://github.com/Animesash/YomixHub.git
-cd YomixHub
-./gradlew assembleDebug
-```
-
-APK появится в `app/build/outputs/apk/debug/`. Не забудьте положить `google-services.json`
-в `app/` — без него не заработает вход через Google.
-
----
-
 ## 📄 Лицензия
 
 Проект распространяется под лицензией **GNU General Public License v3.0** — полный текст
@@ -349,8 +325,6 @@ APK появится в `app/build/outputs/apk/debug/`. Не забудьте п
 | Канал | Ссылка |
 | --- | --- |
 | 🐛 Ошибки и предложения | [GitHub Issues](https://github.com/Animesash/YomixHub/issues) |
-| ✉️ Почта | `your-email@example.com` |
-| 💬 Telegram | `@your_username` |
 
 ---
 
