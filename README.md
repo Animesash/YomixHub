@@ -5,7 +5,7 @@
 
 # 📖 YomixHub
 
-**Манга и новеллы из MangaLib, HentaiLib и RanobeLib — в одном Android-приложении**
+**Манга, манхва и ранобэ из разных источников — всё в одном приложении**
 
 ![Версия](https://img.shields.io/badge/версия-1.0.0--alpha-orange?style=for-the-badge)
 ![Android](https://img.shields.io/badge/Android-8.0%2B%20%7C%20API%2026-3DDC84?style=for-the-badge&logo=android&logoColor=white)
