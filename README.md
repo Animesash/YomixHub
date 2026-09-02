@@ -31,7 +31,6 @@
 - [Планы](#-планы)
 - [FAQ](#-faq)
 - [Дисклеймер](#-дисклеймер)
-- [Вклад в проект](#-вклад-в-проект)
 - [Лицензия](#-лицензия)
 - [Контакты](#-контакты)
 <!-- TOC_END -->
@@ -112,19 +111,15 @@
 
 ## 📸 Скриншоты
 
-Положите PNG-файлы в папку `docs/screenshots/` и снимите комментарий с разметки ниже.
-
-<!--
 <p align="center">
-  <img src="docs/screenshots/photo_5244518002202451838_y.jpg"  alt="Каталог"        width="24%" />
-  <img src="docs/screenshots/photo_5244518002202451837_y.jpg"   alt="Читалка"        width="24%" />
-  <img src="docs/screenshots/photo_5244518002202451842_y.jpg" alt="Закладки"      width="24%" />
+  <img src="docs/screenshots/photo_5244518002202451838_y.jpg" alt="Моя библиотека" width="30%" />
+  <img src="docs/screenshots/photo_5244518002202451842_y.jpg" alt="Читалка" width="30%" />
+  <img src="docs/screenshots/photo_5244518002202451837_y.jpg" alt="Загрузки" width="30%" />
 </p>
--->
 
-| Каталог | Страница тайтла | Читалка | Закладки |
-| :---: | :---: | :---: | :---: |
-| _скоро_ | _скоро_ | _скоро_ | _скоро_ |
+<p align="center">
+  <em>Библиотека · Читалка · Очередь загрузки</em>
+</p>
 
 ---
 
@@ -147,19 +142,6 @@
 
 > [!TIP]
 > Читать можно и без аккаунта — вход нужен только для синхронизации закладок между устройствами.
-
-<details>
-<summary><b>Для разработчиков: настройка Google Sign-In</b></summary>
-
-Файл `google-services.json` **не хранится в репозитории** (он добавлен в `.gitignore`).
-Чтобы собрать проект со входом через Google:
-
-1. Создайте проект в [Firebase Console](https://console.firebase.google.com/) с package name приложения.
-2. Добавьте SHA-1 отладочного ключа (`gradlew signingReport`).
-3. Скачайте `google-services.json` и положите в `app/`.
-4. В [Google Cloud Console](https://console.cloud.google.com/) создайте OAuth Client ID типа **Android**.
-
-</details>
 
 ---
 
