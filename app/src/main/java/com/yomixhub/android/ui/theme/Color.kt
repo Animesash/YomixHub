@@ -1,0 +1,80 @@
+package com.yomixhub.android.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+/**
+ * Baseline "Yomix Violet" tonal palette – the app's fallback Material You scheme
+ * (matching the default Android dynamic color scheme for a violet seed).
+ *
+ * The palette is also reproduced 1:1 in `design/yomixhub-md3-preview.html`.
+ */
+val md_violet_primary = Color(0xFFD0BCFF)
+val md_violet_onPrimary = Color(0xFF381E72)
+val md_violet_primaryContainer = Color(0xFF4F378B)
+val md_violet_onPrimaryContainer = Color(0xFFEADDFF)
+
+val md_violet_secondary = Color(0xFFCCC2DC)
+val md_violet_onSecondary = Color(0xFF332D41)
+val md_violet_secondaryContainer = Color(0xFF4A4458)
+val md_violet_onSecondaryContainer = Color(0xFFE8DEF8)
+
+val md_violet_tertiary = Color(0xFFEFB8C8)
+val md_violet_onTertiary = Color(0xFF492532)
+val md_violet_tertiaryContainer = Color(0xFF633B48)
+val md_violet_onTertiaryContainer = Color(0xFFFFD8E4)
+
+val md_violet_error = Color(0xFFF2B8B5)
+val md_violet_onError = Color(0xFF601410)
+val md_violet_errorContainer = Color(0xFF8C1D18)
+val md_violet_onErrorContainer = Color(0xFFF9DEDC)
+
+val md_violet_background = Color(0xFF141218)
+val md_violet_onBackground = Color(0xFFE6E0E9)
+val md_violet_surface = Color(0xFF141218)
+val md_violet_onSurface = Color(0xFFE6E0E9)
+val md_violet_surfaceVariant = Color(0xFF49454F)
+val md_violet_onSurfaceVariant = Color(0xFFCAC4D0)
+
+val md_violet_surfaceContainerLowest = Color(0xFF0F0D13)
+val md_violet_surfaceContainerLow = Color(0xFF1D1B20)
+val md_violet_surfaceContainer = Color(0xFF211F26)
+val md_violet_surfaceContainerHigh = Color(0xFF2B2930)
+val md_violet_surfaceContainerHighest = Color(0xFF36343B)
+
+val md_violet_outline = Color(0xFF938F99)
+val md_violet_outlineVariant = Color(0xFF49454F)
+
+val md_violet_inverseSurface = Color(0xFFE6E0E9)
+val md_violet_inverseOnSurface = Color(0xFF141218)
+val md_violet_inversePrimary = Color(0xFF4F378B)
+
+/** Light counterpart of the same seed (used when the system is in light mode). */
+val md_violet_light_primary = Color(0xFF6750A4)
+val md_violet_light_onPrimary = Color(0xFFFFFFFF)
+val md_violet_light_primaryContainer = Color(0xFFEADDFF)
+val md_violet_light_onPrimaryContainer = Color(0xFF21005D)
+
+val md_violet_light_secondary = Color(0xFF625B71)
+val md_violet_light_onSecondary = Color(0xFFFFFFFF)
+val md_violet_light_secondaryContainer = Color(0xFFE8DEF8)
+val md_violet_light_onSecondaryContainer = Color(0xFF1D192B)
+
+val md_violet_light_tertiary = Color(0xFF7D5260)
+val md_violet_light_onTertiary = Color(0xFFFFFFFF)
+val md_violet_light_tertiaryContainer = Color(0xFFFFD8E4)
+val md_violet_light_onTertiaryContainer = Color(0xFF31111D)
+
+val md_violet_light_error = Color(0xFFB3261E)
+val md_violet_light_onError = Color(0xFFFFFFFF)
+val md_violet_light_errorContainer = Color(0xFFF9DEDC)
+val md_violet_light_onErrorContainer = Color(0xFF410E0B)
+
+val md_violet_light_surface = Color(0xFFFEF7FF)
+val md_violet_light_onSurface = Color(0xFF1D1B20)
+val md_violet_light_onSurfaceVariant = Color(0xFF49454F)
+val md_violet_light_surfaceContainerLow = Color(0xFFF7F2FA)
+val md_violet_light_surfaceContainer = Color(0xFFF3EDF7)
+val md_violet_light_surfaceContainerHigh = Color(0xFFECE6F0)
+val md_violet_light_surfaceContainerHighest = Color(0xFFE6E0E9)
+val md_violet_light_outline = Color(0xFF79747E)
+val md_violet_light_outlineVariant = Color(0xFFCAC4D0)

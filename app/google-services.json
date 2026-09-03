@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "328611967230",
+    "project_id": "yomixhub",
+    "storage_bucket": "yomixhub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328611967230:android:273f10e978e24bd277b5af",
+        "android_client_info": {
+          "package_name": "com.yomixhub.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328611967230-afkgake9p8ial9ps3h0ajhvg64ik21f2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yomixhub.android",
+            "certificate_hash": "5eaf16eaf2f4dd87ced24b6a1736add23ab5085d"
+          }
+        },
+        {
+          "client_id": "328611967230-d7u0i46p8ug4c31hmoa475u4jqqstebs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWR7dh8OwOavOp8up85X0Fh0yE1uKLHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328611967230-d7u0i46p8ug4c31hmoa475u4jqqstebs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

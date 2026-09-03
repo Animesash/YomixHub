@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">YomixHub</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_library">Закладки</string>
+    <string name="tab_explore">Все тайтлы</string>
+    <string name="tab_notifications">Уведомления</string>
+    <string name="tab_downloads">Загрузки</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_search">Поиск</string>
+    <string name="cd_settings">Настройки</string>
+    <string name="cd_unread_badge">Непрочитанные главы</string>
+    <string name="cd_new_chapters">%1$d новых глав</string>
+    <string name="cd_active_downloads">Активные загрузки</string>
+
+    <!-- Filter chips -->
+    <string name="chip_all">Все</string>
+    <string name="chip_manga">Манга</string>
+    <string name="chip_novels">Новеллы</string>
+    <string name="chip_reading">Читаю</string>
+    <string name="chip_planned">В планах</string>
+    <string name="chip_completed">Прочитано</string>
+
+    <!-- Source picker -->
+    <string name="source_picker_title">Источник каталога</string>
+    <string name="source_all">Все источники</string>
+    <string name="source_all_subtitle">MangaLib + RanobeLib</string>
+    <string name="source_hentailib_subtitle">Каталог для взрослых</string>
+    <string name="badge_adult">18+</string>
+    <string name="source_offline">Демо-каталог</string>
+
+    <!-- First-launch alpha welcome dialog -->
+    <string name="welcome_title">YomixHub %1$s</string>
+    <string name="welcome_body">Спасибо за установку первой альфа-сборки!\n\nЧто уже доступно:\n— Авторизация через Google Аккаунт\n— Облачные закладки с защитой данных\n— Чтение каталогов MangaLib, HentaiLib и RanobeLib</string>
+    <string name="welcome_dont_show_again">Больше не показывать</string>
+    <string name="welcome_start">Начать читать</string>
+
+    <!-- Settings & updater -->
+    <string name="settings_title">Настройки</string>
+    <!-- Account (Google sign-in / Firebase sync) -->
+    <string name="auth_section_title">Аккаунт</string>
+    <string name="auth_sign_in_google">Войти через Google</string>
+    <string name="auth_sign_out">Выйти из аккаунта</string>
+    <string name="auth_sync_hint">Закладки синхронизируются с облаком</string>
+    <string name="auth_error_prefix">Не удалось войти: %1$s</string>
+    <string name="auth_email_unavailable">Адрес электронной почты недоступен</string>
+    <string name="cd_user_avatar">Аватар пользователя</string>
+    <string name="settings_check_updates">Проверить обновления</string>
+    <string name="settings_checking">Проверка обновлений…</string>
+    <string name="settings_no_updates">У вас последняя версия</string>
+    <string name="settings_update_error">Не удалось проверить обновления</string>
+    <string name="settings_current_version">Версия %1$s</string>
+    <string name="settings_source_catalog">Источник каталога</string>
+    <string name="update_available_title">Доступно обновление</string>
+    <string name="update_available_text">Версия %1$s (текущая %2$s)</string>
+    <string name="update_download">Скачать</string>
+    <string name="update_later">Позже</string>
+
+    <!-- Sections -->
+    <string name="section_popular">Популярное сейчас</string>
+    <string name="section_popular_novels">Популярные новеллы</string>
+    <string name="section_search_results">Результаты поиска</string>
+    <string name="section_demo">Демо-каталог · без сети</string>
+    <string name="section_library">Моя библиотека</string>
+    <string name="section_today">Сегодня</string>
+    <string name="section_this_week">На этой неделе</string>
+    <string name="section_downloading">Очередь загрузки</string>
+    <string name="section_chapters">Главы</string>
+    <string name="section_description">Описание</string>
+
+    <string name="new_chapter">Новая глава %1$s</string>
+    <string name="title_meta">Т. %1$d · Гл. %2$d · ★ %3$s</string>
+    <string name="unread_chapters">%1$d гл.</string>
+
+    <!-- Bookmarks / downloads actions -->
+    <string name="bookmark_add">Добавить в закладки</string>
+    <string name="bookmark_remove">Убрать из закладок</string>
+    <string name="download_chapter">Скачать главу</string>
+    <string name="downloaded">Скачано</string>
+    <string name="remove_download">Убрать из загрузок</string>
+
+    <!-- Download statuses -->
+    <string name="download_status_active">Загружается</string>
+    <string name="download_status_paused">Пауза</string>
+    <string name="download_status_queued">В очереди</string>
+    <string name="download_status_done">Готово</string>
+    <string name="download_status_failed">Ошибка</string>
+
+    <!-- Empty states -->
+    <string name="empty_bookmarks">Пока пусто</string>
+    <string name="hint_bookmarks">Откройте любой тайтл и нажмите закладку, чтобы сохранить его здесь</string>
+    <string name="empty_notifications">Уведомлений нет</string>
+    <string name="hint_notifications">Здесь появятся новые главы тайтлов из закладок</string>
+    <string name="empty_downloads">Загрузок нет</string>
+    <string name="hint_downloads">Скачайте главы из карточки тайтла, чтобы читать их без сети</string>
+    <string name="empty_chapters">Глав пока нет</string>
+
+    <!-- Search / source loading -->
+    <string name="search_hint_remote">Поиск по каталогу…</string>
+    <string name="search_hint_library">Поиск по закладкам…</string>
+    <string name="search_hint_notifications">Поиск по уведомлениям…</string>
+    <string name="search_hint_downloads">Поиск по загрузкам…</string>
+    <string name="cd_navigate_back">Назад</string>
+    <string name="cd_close_search">Закрыть поиск</string>
+    <string name="retry">Повторить</string>
+    <string name="show_more">Показать ещё</string>
+    <string name="show_demo">Показать демо-каталог</string>
+    <string name="error_source">Не удалось загрузить данные источника</string>
+    <string name="empty_search">Ничего не найдено</string>
+    <string name="description_unavailable">Описание пока недоступно.</string>
+    <string name="chapters_unavailable">Список глав недоступен.</string>
+    <string name="expand_description">Ещё</string>
+    <string name="collapse_description">Свернуть</string>
+    <string name="end_of_chapter">Конец главы</string>
+
+    <!-- Time formatting -->
+    <string name="time_just_now">только что</string>
+    <string name="time_minutes_ago">%1$d мин</string>
+    <string name="time_hours_ago">%1$d ч</string>
+
+    <!-- Reader -->
+    <string name="pages_count">Страниц: %1$d</string>
+    <string name="page_of">Страница %1$d из %2$d</string>
+</resources>
